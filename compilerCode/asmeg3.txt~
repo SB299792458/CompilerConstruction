@@ -1,0 +1,16 @@
+main
+{
+	int a;
+	int b;
+	b := 4;
+	a := 2;
+	
+	if(a<=b)
+	{
+		a:= a *b;
+	}
+	else
+	{
+		b :=b*a;
+	}
+}

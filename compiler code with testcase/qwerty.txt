@@ -1,0 +1,100 @@
+1 e
+4 <structures> <declarations> <functions> <main-func>
+2 <structure> <structures>
+5 <P> <type> <id-list> ; <declarations>
+1 <arrayinit>
+7 function <returntype> <funcname> : <funcsignature> <Y> <functions>
+2 main  <block>
+6 create TK_Identifier { <declarations> } ;
+1 constant
+2 TK_Identifier <T>
+1 int
+1 char
+1 boolean
+3 <arraypart> TK_Identifier ;
+2 , <id-list>
+3 ( <args> )
+1 <try-block>
+6 try <block> catch <block> finally <block>
+1 <block>
+3 { <statements> }
+3 <type> TK_Identifier <T2>
+2 void <T2>
+1 <type>
+1 void
+2 , <args>
+1 <declarations>
+1 <assignstat>
+1 <functioncall> 
+1 <returnstat>
+2 end ;
+2 next ;
+1 <ifstat>
+1 <iterativestat>
+1 <instat>
+1 <outstat>
+2 <statement> <statements>
+4 <arraystmt> := <Exp> ;
+5 call TK_Identifier ( <toSend> ) 
+2 <arraystmt> <S>
+2 <literal> <S>
+2 , <toSend>
+3 return <toreturn> ;
+1 <arraystmt>
+1 <literal>
+8 if ( <condExp> ) { <statements> } <elsestat>
+4 else { <statements> }
+7 while ( <condExp> ) { <statements> }
+4 input >> TK_Identifier ;
+4 output << TK_Identifier ;
+3 <arraypart> TK_Identifier ;
+8 array ( <type> ) [ <arithmeticexp> ] <Z>
+4 [ <arithmeticexp> ] <Z>
+2 TK_Identifier <X>
+3 # TK_Identifier <X>
+4 [ <arithmeticexp> ] <X>
+2 . TK_Identifier
+1 <ORexp>
+2 <ANDexp> <F>
+3 || <ANDexp> <F>
+2 <equalityexp> <G>
+3 && <equalityexp> <G>
+2 <relationalexp> <H>
+2 <equalOp> <relationalexp>
+1 ==
+1 !=
+2 <arithmeticexp> <J>
+2 <relOp> <arithmeticexp>
+1 >
+1 <
+1 <=
+1 >=
+1 <addexp>
+2 <mulexp> <B>
+3 + <mulexp> <B>
+3 - <mulexp> <B>
+2 <bitexp> <C>
+3 * <mulexp> <C>
+3 / <mulexp> <C>
+3 % <mulexp> <C>
+2 <unaryexp> <D>
+3 <bitOp> <bitexp> <D>
+1 &
+1 |
+2 <K> <notexp> 
+1 inc
+1 dec
+2 <notOp> <simple>
+1 <simple> 
+1 !
+3 ( <Exp> )
+1 <integerliteral>
+1 <booleanliteral>
+1 <charliteral>
+1 true
+1 false
+1 TK_Integer
+1 TK_Character
+1 TK_Identifier
+3 <K> <notexp> ;
+6 call TK_Identifier ( <toSend> ) ;

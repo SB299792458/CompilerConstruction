@@ -1,0 +1,76 @@
+function 
+int 
+TK_Identifier fiba 
+:
+(
+int 
+TK_Identifier a 
+)
+{
+int 
+TK_Identifier c 
+;
+TK_Identifier c 
+:=
+TK_Integer 2 
+;
+int 
+TK_Identifier x 
+,
+TK_Identifier y 
+;
+TK_Identifier x 
+:=
+TK_Integer 0 
+;
+TK_Identifier y 
+:=
+TK_Integer 1 
+;
+int 
+TK_Identifier t 
+;
+while 
+(
+TK_Identifier c 
+<
+TK_Identifier a 
+)
+{
+TK_Identifier t 
+:=
+TK_Identifier x 
++
+TK_Identifier y 
+;
+TK_Identifier y 
+:=
+TK_Identifier t 
+;
+TK_Identifier x 
+:=
+TK_Identifier y 
+;
+}
+return 
+TK_Identifier t 
+;
+}
+main 
+{
+int 
+TK_Identifier ans 
+;
+TK_Identifier ans 
+:=
+call 
+TK_Identifier fiba 
+(
+TK_Integer 5 
+)
+;
+output 
+<<
+TK_Identifier ans 
+;
+}

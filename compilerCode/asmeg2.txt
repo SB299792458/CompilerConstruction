@@ -1,0 +1,13 @@
+main
+{
+	int a;
+	int b;
+	b := 40;
+	a := 5;
+	
+	
+	while(b>=a)
+	{
+		a :=a+b;
+	}
+}

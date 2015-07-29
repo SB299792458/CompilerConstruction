@@ -1,0 +1,19 @@
+function void iostream:(void) 
+ { 
+ char word; 
+ input >> word;
+ 
+ int y;
+ y:=5;
+
+ char a;
+
+ a:='z';
+
+ inc y;
+ inc a; 
+
+ }  
+ main 
+ {  
+ } 

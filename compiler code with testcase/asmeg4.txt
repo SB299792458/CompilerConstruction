@@ -1,0 +1,18 @@
+main
+{
+	int a;
+	int b;
+	b := 4;
+	a := 2;
+	array( int ) [5] arr;
+	
+	if(a<=b)
+	{
+		arr[ a ] :=b;
+		a:= a +1;
+	}
+	else
+	{
+		arr[ 0 ] :=b;
+	}
+}

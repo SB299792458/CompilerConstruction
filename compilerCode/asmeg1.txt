@@ -1,0 +1,9 @@
+main
+{
+	int a;
+	int b;
+	b := 4;
+	a := b*b+1;
+	b :=b+1;
+
+}

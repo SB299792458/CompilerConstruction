@@ -1,0 +1,25 @@
+function int fiba: (int a)
+{ 
+ 	int c; 
+ 	c := 2; 
+ 	int x, y;
+ 	x:=0;
+ 	y:=1;
+ 	int t;
+ 	while (c < a) 
+	 { 
+	 t:=x+y;
+	 y:=t;
+	 x:=y; 
+	 } 
+	 return t; 
+ } 
+
+ main 
+ { 
+ 	int ans;
+	
+ 	ans := call fiba(5) ; 
+ 	output << ans; 
+ } 
+

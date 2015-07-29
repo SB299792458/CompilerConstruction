@@ -1,0 +1,69 @@
+function 
+int 
+TK_Identifier power 
+:
+(
+int 
+TK_Identifier x 
+,
+int 
+TK_Identifier y 
+)
+{
+int 
+TK_Identifier result 
+;
+TK_Identifier result 
+:=
+TK_Integer 1 
+;
+if 
+(
+TK_Identifier y 
+==
+TK_Integer 0 
+)
+{
+return 
+TK_Integer 1 
+;
+}
+while 
+(
+TK_Identifier y 
+>
+TK_Integer 0 
+)
+{
+TK_Identifier y 
+:=
+TK_Identifier y1 
+;
+TK_Identifier result 
+:=
+TK_Identifier result 
+*
+TK_Identifier x 
+;
+}
+return 
+TK_Identifier result 
+;
+}
+main 
+{
+int 
+TK_Identifier ans 
+;
+TK_Identifier ans 
+:=
+call 
+TK_Identifier power 
+(
+TK_Integer 2 
+,
+TK_Integer 3 
+)
+;
+}
+
